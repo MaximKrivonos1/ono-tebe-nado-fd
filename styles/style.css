@@ -156,14 +156,14 @@
 }
 
 .bet-button {
+  width: 256px;
   border: 1px solid currentColor;
   padding: 12px 31px;
   color: white;
   font-weight: 500;
-  background-color: transparent;
-  width:256px;
-  font-size:22px;
+  font-size: 22px;
   text-transform: uppercase;
+  background-color: transparent;
 }
 
 .lots {
@@ -306,9 +306,9 @@
   grid-template-rows: 1fr;
   justify-content: center;
   align-items: start;
+  height: 180px;
   margin: 180px 0 0 0;
   padding: 0;
-  height:180px;
 }
 
 .footer__address {
