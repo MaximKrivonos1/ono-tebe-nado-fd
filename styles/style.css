@@ -302,8 +302,7 @@
   grid-template-rows: 1fr;
   justify-content: center;
   align-items: start;
-  margin: 180px 0 0 0;
-  padding: 0;
+  margin: 180px 0 84px 0;
 }
 
 .footer__address {
