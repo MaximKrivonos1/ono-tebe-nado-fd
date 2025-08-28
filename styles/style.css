@@ -23,7 +23,7 @@
 .header__links-list {
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 33px;
   height: 22px;
   margin: 0;
   padding: 0;
@@ -36,13 +36,13 @@
 .header__link {
   display: flex;
   height: 22px;
-  border-bottom: 1px solid currentColor;
-  padding-bottom: 2px;
   font-size: 18px;
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .header__link_active {
+  font-size: 18px;
   text-decoration: none;
 }
 
@@ -104,6 +104,7 @@
   width: 1000px;
   height: 385px;
   color: white;
+  font-weight: 700;
   font-size: 100px;
   line-height: 115px;
   text-transform: uppercase;
@@ -115,7 +116,7 @@
 
 .aligned-text-left {
   justify-self: start;
-  margin-top: 3px;
+  margin-top: 4px;
 }
 
 .aligned-text-center {
@@ -145,13 +146,16 @@
   align-items: center;
   width: 1000px;
   height: 51px;
+  margin-top: 1px;
   font-size: 22px;
   text-transform: uppercase;
 }
 
 .cover__description-text {
+  margin-left: 1px;
   color: white;
-  font-weight: 400;
+  font-weight: 100;
+  font-style: normal;
   word-spacing: 18px;
 }
 
