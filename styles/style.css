@@ -161,6 +161,9 @@
   color: white;
   font-weight: 500;
   background-color: transparent;
+  width:256px;
+  font-size:22px;
+  text-transform: uppercase;
 }
 
 .lots {
@@ -305,6 +308,7 @@
   align-items: start;
   margin: 180px 0 0 0;
   padding: 0;
+  height:180px;
 }
 
 .footer__address {
